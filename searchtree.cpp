@@ -166,4 +166,21 @@ int main()
             obj.postorder (obj.ROOT);
             break;
         }
-        
+        case '4':
+        {
+            return 0;
+        }
+        case '5':
+        {
+            return 0;
+            
+        default:
+        {
+            cout << "invalid option" << endl;
+            break;
+        }
+        }
+        }
+    }
+    return 0;
+}
